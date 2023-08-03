@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body button {
+    border-radius: 8px;
+    background-color: green;
+    color: aliceblue;
+    border-style: groove;
+}
+
+#container{
+    text-align: center;
+    width: 500px;
+}
+
+#container div input{
+    width: 250px;
+    padding: 5px 5px;
+}
+
+#container div button{
+    width: 100px;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+
+#container h1{
+    padding: 20px 10px;
+}
+
+#container ul{
+    list-style: none;
+    padding: 20px 0;
+}
+
+#container ul li {
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(240, 167, 167);
+    border-radius: 10px;
+  
+    
+    color: white;
+}
+
+.feito{
+    text-decoration: line-through;
+}
